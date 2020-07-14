@@ -1,13 +1,14 @@
 package com.company;
 
 public class Person {
-    private String Firstname;
+    private String firstname;
+    private String lastname;
 
     public void setFirstname (String firstname){
-        Firstname=firstname;
+        this.firstname=firstname;
     }
 
     public String getFirstname() {
-        return Firstname;
+        return firstname;
     }
 }
